@@ -1,0 +1,61 @@
+{% extends "rest_framework/api.html" %}
+{% block content %}
+<div class="container">
+<div class="row">
+    <div class="col-md-1"></div>
+	<div class="col-md-6">
+		<div id="postlist">
+			<div class="panel">
+                <div class="panel-heading">
+                    <div class="text-center">
+                        <div class="row">
+                            <div class="col-sm-9">
+                                <h3 class="pull-left">Welcome</h3>
+                            </div>
+                            <div class="col-sm-3">
+                                <h4 class="pull-right">
+                                <small><em>Date: {{data.d}}<br>Time: {{data.t}}</em></small>
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            <div class="panel-body">
+                <H6><span class="alert alert-info">This is the Fuel Monitoring and Management System API home page</span> </H6><a class="label label-default center"> version 0.1 </a>
+            </div>
+            
+            <div class="panel-footer">
+                <span class="label label-default">Last Updates</span> <span class="label label-default">14 JAN 2019</span>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        List</h3>
+                </div>
+                <ul class="list-group">
+                    {% for f in fu %}
+                    <a href="/fuel/{{f}}" class="list-group-item">{{f|title}}</a>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-danger">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        List</h3>
+                </div>
+                <ul class="list-group">
+                    {% for g in gen %}
+                    <a href="/generate/{{g}}" class="list-group-item">{{g|title}}</a>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div><form action="/docs" target="/docs/"><input type="submit" class="btn btn-primary" value="View Docs" ></form> </div>
+        </div>
+        </div></div></div></div>
+{% endblock content %}
