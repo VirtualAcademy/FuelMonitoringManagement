@@ -14,7 +14,7 @@ TITLE = 'FMMS'
 
 # The value of this parameter will be propagated into both
 # `app.scripts.config.serve_locally` and `app.css.config.serve_locally`
-SERVE_LOCALLY = False
+SERVE_LOCALLY = True
 
 # Prefix for Dash URL routes and client-side requests. Passed into Dash's
 # `url_base_pathname` keyword argument. Must begin and end with a '/'.
@@ -41,6 +41,7 @@ EXTERNAL_SCRIPTS = []
 #
 # Layout config
 #
+IMAGE_URL = '/assets/images/icons/'
 
 # The ID of the element used to inject each page of the multi-page app into
 CONTENT_CONTAINER_ID = 'page-content'

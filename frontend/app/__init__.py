@@ -1,3 +1,5 @@
+import os
+from random import randint
 from flask import Flask
 from dash import Dash
 import settings
@@ -6,6 +8,7 @@ import settings
 def create_flask(config_object=settings):
 	"""Create the Flask instance for this application"""
 	server = Flask('app')
+	server.secret_key = os.environ.get('secret_key', str(randint(0, 1000000)))
 
 	# load default settings
 	server.config.from_object(config_object)

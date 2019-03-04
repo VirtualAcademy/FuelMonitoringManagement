@@ -18,7 +18,7 @@ from django.views.generic import TemplateView
 from django.contrib import admin
 from django.urls import path, include
 from rest_framework.documentation import include_docs_urls
-
+from rest_framework_jwt.views import refresh_jwt_token
 
 class HomeView(TemplateView):
     template_name = 'rest_framework/home.html'
@@ -39,6 +39,9 @@ class HomeView(TemplateView):
 
 
 urlpatterns = [
+    path('rest-auth/', include('rest_auth.urls')),
+    path('rest-auth/registration/', include('rest_auth.registration.urls')),
+    path('refresh-token/', refresh_jwt_token),
     path('', HomeView.as_view()),
     path('admin/', admin.site.urls),
     path('generate/', include('generation.urls')),

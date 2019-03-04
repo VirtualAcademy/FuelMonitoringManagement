@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a587d003-28a4-43ac-8a8d-326e46a94062" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend/app/forms/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/forms/supply.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/futils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/futils/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/layout/dashboard.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/layout/graphcomponents.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/app/layout/home.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/FMMSysApi/FMMSysApi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/FMMSysApi/FMMSysApi/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/FMMSysApi/FMMSysApi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/FMMSysApi/FMMSysApi/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/FMMSysApi/fuel/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/FMMSysApi/fuel/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/FMMSysApi/fuel/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/FMMSysApi/fuel/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/FMMSysApi/generation/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/FMMSysApi/generation/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/Procfile.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/api/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/api/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/api/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/api/manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/assets/static/bootswatch/cerulean/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/assets/static/bootswatch/cerulean/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/assets/static/css/bootswatch/cerulean/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/assets/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/assets/static/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/assets/static/css/mbcsmbmcp.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/assets/static/css/mbcsmbmcp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/layout/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/layout/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/layout/components.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/layout/components.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/layout/connectednetworks.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/layout/connectednetworks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/layout/consumption.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/layout/consumption.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/layout/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/layout/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/layout/overview.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/layout/overview.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/layout/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/layout/production.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/layout/supplies.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/layout/supplies.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/runtime.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/app/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/app/settings.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2107934289">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="8" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="12" />
+          <entry key="groovy" value="1" />
+          <entry key="html" value="5" />
+          <entry key="js" value="4" />
+          <entry key="png" value="14" />
+          <entry key="py" value="159" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="12" />
+          <entry key="HTML" value="5" />
+          <entry key="Image" value="14" />
+          <entry key="JavaScript" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="159" />
+          <entry key="Scratch" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Python Console" value="766" />
+          <entry key="css" value="518" />
+          <entry key="dummy" value="19" />
+          <entry key="html" value="676" />
+          <entry key="py" value="207090" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="518" />
+          <entry key="HTML" value="676" />
+          <entry key="PLAIN_TEXT" value="19" />
+          <entry key="Python" value="207856" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/app/layout/home.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/app/layout/components.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="78" selection-start-line="16" selection-start-column="28" selection-end-line="17" selection-end-column="109" />
+              <folding>
+                <marker date="1548977234812" expanded="true" signature="6588:6593" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/FMMSysApi/fuel/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5253">
+              <caret line="317" selection-start-line="267" selection-end-line="317" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/backend/FMMSysApi/FMMSysApi/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-35">
+              <caret line="136" column="2" selection-start-line="136" selection-start-column="2" selection-end-line="136" selection-end-column="2" />
+              <folding>
+                <element signature="e#309#324#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/FMMSysApi/FMMSysApi/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+              <folding>
+                <element signature="e#633#662#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/backend/FMMSysApi/fuel/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/app/layout/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/app/layout/menu.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/app/forms/login.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/app/forms/supply.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>wra</find>
+      <find>bac</find>
+      <find>colum</find>
+      <find>head</find>
+      <find>max</find>
+      <find>@media</find>
+      <find>wr</find>
+      <find>url</find>
+      <find>overview</find>
+      <find>hy</find>
+      <find>gra</find>
+      <find>Hypothetical growt</find>
+      <find>perf</find>
+      <find>plan</find>
+      <find>stock v</find>
+      <find>back</find>
+      <find>per</find>
+      <find>dcc</find>
+      <find>print</find>
+      <find>models.Model</find>
+      <find>tex</find>
+      <find>AppModel</find>
+      <find>pathname</find>
+      <find>tab</find>
+      <find>#</find>
+      <find>.ta</find>
+      <find>settings</find>
+      <find>ConfigParser</find>
+      <find>image_url</find>
+      <find />
+    </findStrings>
+    <replaceStrings>
+      <replace>)/modify/$</replace>
+      <replace>mbmcpebul</replace>
+      <replace>ebab_mbmcp_ico</replace>
+      <replace>buttonbg gradient_button gradient72</replace>
+      <replace>mbico_mbmcp</replace>
+      <replace>BOOTSWATCH_BASE</replace>
+      <replace>image_url</replace>
+      <replace>object</replace>
+      <replace>configparser</replace>
+      <replace>_</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/backend/FMMSapi/FMMSapi/settings.py" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/templates/rest_framework/api.html" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/templates/admin/base.html" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/templates/admin/base_site.html" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/fuel/api_util.py" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/fuel/views.py" />
+        <option value="$PROJECT_DIR$/grph.py" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/generation/tests.py" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/generation/views.py" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/templates/rest_framework/home.html" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/fuel/urls.py" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/generation/urls.py" />
+        <option value="$PROJECT_DIR$/frontend/slapdash/index.py" />
+        <option value="$PROJECT_DIR$/frontend/slapdash/__init__.py" />
+        <option value="$PROJECT_DIR$/frontend/slapdash/app.py" />
+        <option value="$PROJECT_DIR$/frontend/slapdash/utils.py" />
+        <option value="$PROJECT_DIR$/frontend/slapdash/components.py" />
+        <option value="$PROJECT_DIR$/frontend/slapdash/layouts.py" />
+        <option value="$PROJECT_DIR$/frontend/app/__init__.py" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/generation/serializers.py" />
+        <option value="$PROJECT_DIR$/frontend/app/layout/mainlayout.py" />
+        <option value="$PROJECT_DIR$/frontend/app/assets/static/css/normalize.css" />
+        <option value="$PROJECT_DIR$/frontend/app/settings.py" />
+        <option value="$PROJECT_DIR$/frontend/app/assets/static/js/mbjsmbmcp.js" />
+        <option value="$PROJECT_DIR$/frontend/app/assets/static/css/mbcsmbmcp.css" />
+        <option value="$PROJECT_DIR$/frontend/app/layout/overview.py" />
+        <option value="$PROJECT_DIR$/frontend/app/layout/graphcomponents.py" />
+        <option value="$PROJECT_DIR$/frontend/app/layout/supplies.py" />
+        <option value="$PROJECT_DIR$/frontend/app/layout/consumption.py" />
+        <option value="$PROJECT_DIR$/frontend/app/layout/connectednetworks.py" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/fuel/serializers.py" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/fuel/models.py" />
+        <option value="$PROJECT_DIR$/frontend/app/api/manager.py" />
+        <option value="$PROJECT_DIR$/frontend/app/futils/utils.py" />
+        <option value="$PROJECT_DIR$/frontend/app/assets/static/css/main.css" />
+        <option value="$PROJECT_DIR$/frontend/app/forms/form.py" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/generation/models.py" />
+        <option value="$PROJECT_DIR$/frontend/app/layout/dashboard.py" />
+        <option value="$PROJECT_DIR$/frontend/app/layout/production.py" />
+        <option value="$PROJECT_DIR$/frontend/app/api/config.py" />
+        <option value="$PROJECT_DIR$/frontend/app/forms/__init__.py" />
+        <option value="$PROJECT_DIR$/frontend/app/layout/menu.py" />
+        <option value="$PROJECT_DIR$/frontend/app/app.py" />
+        <option value="$PROJECT_DIR$/frontend/app/layout/__init__.py" />
+        <option value="$PROJECT_DIR$/frontend/app/layout/components.py" />
+        <option value="$PROJECT_DIR$/frontend/app/layout/home.py" />
+        <option value="$PROJECT_DIR$/frontend/app/forms/login.py" />
+        <option value="$PROJECT_DIR$/polysum.py" />
+        <option value="$PROJECT_DIR$/frontend/app/forms/supply.py" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/FMMSysApi/settings.py" />
+        <option value="$PROJECT_DIR$/backend/FMMSysApi/FMMSysApi/urls.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="29" />
+    <option name="y" value="-23" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Buildout</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="projcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projcode" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projcode" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="FMMSysApi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projcode" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="FMMSysApi" type="462c0819:PsiDirectoryNode" />
+              <item name="FMMSysApi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projcode" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="FMMSysApi" type="462c0819:PsiDirectoryNode" />
+              <item name="fuel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="projcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projcode" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/frontend/app/assets/static/css" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cho2n\Desktop\Masters Thesis\projcode\frontend\app\assets\images\icons" />
+      <recent name="C:\Users\cho2n\Desktop\Masters Thesis\projcode\frontend\app\assets\static\css" />
+      <recent name="C:\Users\cho2n\Desktop\Masters Thesis\projcode\frontend\app\assets\images" />
+      <recent name="C:\Users\cho2n\Desktop\Masters Thesis\projcode\frontend\app" />
+      <recent name="C:\Users\cho2n\Desktop\Masters Thesis\projcode\backend\FMMSysApi\fuel" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cho2n\Desktop\Masters Thesis\projcode\frontend\app\bootswatch\cerulean" />
+      <recent name="C:\Users\cho2n\Desktop\Masters Thesis\projcode\frontend\app" />
+      <recent name="C:\Users\cho2n\Desktop\Masters Thesis\projcode\frontend" />
+      <recent name="C:\Users\cho2n\Desktop\Masters Thesis\projcode\frontend\app\assets\static\css" />
+      <recent name="C:\Users\cho2n\Desktop\Masters Thesis\projcode\frontend\app\images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a587d003-28a4-43ac-8a8d-326e46a94062" name="Default Changelist" comment="" />
+      <created>1546802380159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546802380159</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.21875" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.4985119" visible="true" weight="0.31175467" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5014881" side_tool="true" weight="0.36626917" />
+      <window_info anchor="bottom" id="Python Console" order="2" weight="0.3270869" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" weight="0.32879046" />
+      <window_info anchor="bottom" id="Version Control" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.32879046" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/frontend/app/images/ebab_mbmcp_ico_1.png" />
+    <entry file="file://$PROJECT_DIR$/frontend/app/assets/images/icons/mbico_mbmcp_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/images/ebab_mbmcp_d.png" />
+    <entry file="file://$PROJECT_DIR$/frontend/app/images/ebab_mbmcp_ico_2.png" />
+    <entry file="file://$PROJECT_DIR$/frontend/app/images/ebab_mbmcp_ico_5.png" />
+    <entry file="file://$PROJECT_DIR$/frontend/app/images/ebab_mbmcp.png" />
+    <entry file="file://$PROJECT_DIR$/frontend/app/assets/static/js/mbjsmbmcp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/assets/static/css/skeleton.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/assets/static/css/mbcsmbmcp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" selection-start-line="2" selection-start-column="18" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/layout/graphcomponents.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/layout/overview.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="30" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/layout/supplies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/layout/consumption.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/slapdash/pages/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/FMMSysApi/fuel/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3349" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/futils/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="10" lean-forward="true" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/api/manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2006">
+          <caret line="118" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/FMMSysApi/generation/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="186" column="12" lean-forward="true" selection-start-line="186" selection-start-column="12" selection-end-line="186" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/slapdash/pages/page3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/slapdash/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/layout/connectednetworks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/projcode/Lib/site-packages/dash/dash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="882" selection-start-line="882" selection-end-line="882" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/slapdash/layouts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-514">
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/slapdash/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/slapdash/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/slapdash/components.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-197">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/slapdash/exceptions.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/slapdash/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/slapdash/pages/page2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/slapdash/pages/character_counter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="52" selection-start-line="51" selection-start-column="2" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/assets/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="175" column="6" selection-start-line="175" selection-start-column="3" selection-end-line="175" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/slapdash/index.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/forms/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/api/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/layout/production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="59" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/layout/dashboard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="164" column="32" selection-start-line="164" selection-start-column="32" selection-end-line="164" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/FMMSysApi/fuel/serializers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="82" column="17" lean-forward="true" selection-start-line="82" selection-start-column="17" selection-end-line="82" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1139">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/polysum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="108" column="9" lean-forward="true" selection-start-line="108" selection-start-column="9" selection-end-line="108" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/layout/home.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/layout/components.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="78" selection-start-line="16" selection-start-column="28" selection-end-line="17" selection-end-column="109" />
+          <folding>
+            <marker date="1548977234812" expanded="true" signature="6588:6593" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/FMMSysApi/fuel/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5253">
+          <caret line="317" selection-start-line="267" selection-end-line="317" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/FMMSysApi/FMMSysApi/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="43" column="10" selection-start-line="43" selection-start-column="10" selection-end-line="43" selection-end-column="10" />
+          <folding>
+            <element signature="e#633#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/FMMSysApi/fuel/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="37" column="54" selection-start-line="37" selection-start-column="54" selection-end-line="37" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/layout/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/layout/menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/forms/login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/app/forms/supply.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/FMMSysApi/FMMSysApi/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="136" column="2" selection-start-line="136" selection-start-column="2" selection-end-line="136" selection-end-column="2" />
+          <folding>
+            <element signature="e#309#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

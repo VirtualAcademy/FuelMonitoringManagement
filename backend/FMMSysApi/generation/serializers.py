@@ -20,6 +20,7 @@ class AutonomyLeftSerializer(serializers.ModelSerializer):
 		model = AutonomyLeft
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
+		depth = 1
 
 
 class HourlyTPASerializer(serializers.ModelSerializer):
@@ -30,6 +31,7 @@ class HourlyTPASerializer(serializers.ModelSerializer):
 		model = HourlyTotalPowerAvailable
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
+		depth = 1
 
 class GeneratorsSerializer(serializers.ModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
@@ -39,6 +41,7 @@ class GeneratorsSerializer(serializers.ModelSerializer):
 		model = Generators
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
+		depth = 1
 
 class DemandSerializer(serializers.ModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
@@ -57,3 +60,4 @@ class HourlyPFSerializer(serializers.ModelSerializer):
 		model = HourlyProductionForecast
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
+		depth = 1

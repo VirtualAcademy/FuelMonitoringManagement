@@ -325,11 +325,12 @@ class DeliveryOrder(AppModel):
 
 
 class SupplyScheduleTransaction(AppModel):
+	"""Confirm receipt of product"""
 
 	transaction_no = models.AutoField(
 			primary_key=True,
 			verbose_name=_("Transaction number"),
-			help_text=_("The threshold quantity that can't be consumed."), default=0)
+			help_text=_("The id number for the supply transaction"), default=0)
 	transaction_date = models.DateField(
 			verbose_name=_("Purchase Order Date"),
 			help_text=_("The date the purchase was ordered."), default=datetime.today, blank=False)
@@ -341,16 +342,12 @@ class SupplyScheduleTransaction(AppModel):
 
 	eta = models.DateField(
 			verbose_name=_("Estimated Arrival Date"),
-			help_text=_("The Estimated Time of Arrival of the order that is being made."),  default=datetime.today, blank=False)
-
-	order_qty = models.FloatField(
-			verbose_name=_("Quantity Ordered"),
-			help_text=_("The quantity of fuel ordered."), default=0)
+			help_text=_("The Estimated Time of Arrival of the order that is being made."))
 
 	delivery_order = models.ForeignKey(
 			DeliveryOrder,
 			verbose_name=_("Delivery Order No."),
-			help_text=_("The delivery order linked to this schedule."), on_delete=models.CASCADE,
+			help_text=_("The delivery order linked to this receipt confirmation."), on_delete=models.CASCADE,
 	)
 
 	# created_on = models.DateField(auto_now_add=True, editable=False)

@@ -10,6 +10,7 @@ class ConsumptionSerializer(serializers.ModelSerializer):
 		"""Meta class to map serializer's fields with the model fields."""
 		model = Consumption
 		fields = '__all__'
+		depth = 1
 
 
 class DailyProductionOnFuelSerializer(serializers.ModelSerializer):
@@ -20,6 +21,7 @@ class DailyProductionOnFuelSerializer(serializers.ModelSerializer):
 		model = DailyProductionOnFuel
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
+		depth = 1
 
 
 class DeliveryOrderSerializer(serializers.ModelSerializer):
@@ -30,6 +32,7 @@ class DeliveryOrderSerializer(serializers.ModelSerializer):
 		model = DeliveryOrder
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
+		depth = 1
 
 class FuelSerializer(serializers.ModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
@@ -47,6 +50,7 @@ class InventorySerializer(serializers.ModelSerializer):
 		model = Inventory
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
+		depth = 1
 
 class SpecificConsumptionSerializer(serializers.ModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
@@ -56,6 +60,7 @@ class SpecificConsumptionSerializer(serializers.ModelSerializer):
 		model = SpecificConsumption
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
+		depth = 1
 
 class StockVariationSerializer(serializers.ModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
@@ -65,6 +70,7 @@ class StockVariationSerializer(serializers.ModelSerializer):
 		model = StockVariation
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
+		depth = 1
 
 class SupplyScheduleTransactionSerializer(serializers.ModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
@@ -74,6 +80,7 @@ class SupplyScheduleTransactionSerializer(serializers.ModelSerializer):
 		model = SupplyScheduleTransaction
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
+		depth = 1
 
 class SupplySerializer(serializers.ModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
@@ -83,6 +90,7 @@ class SupplySerializer(serializers.ModelSerializer):
 		model = Supply
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
+		depth = 1
 
 class StorageUnitSerializer(serializers.ModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
@@ -91,6 +99,7 @@ class StorageUnitSerializer(serializers.ModelSerializer):
 		"""Meta class to map serializer's fields with the model fields."""
 		model = StorageUnit
 		fields = '__all__'
+		depth = 1
 
 class SupplierSerializer(serializers.ModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
