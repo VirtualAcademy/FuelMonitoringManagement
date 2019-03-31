@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'rest_auth.registration',
+    'apiauth',
     'generation',
     'fuel',
 ]
@@ -127,7 +128,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-
+LOGIN_REDIRECT_URL = '/'
 GRAPH_MODELS = {
   'all_applications': True,
   'group_models': True,
@@ -152,3 +153,10 @@ REST_FRAMEWORK = {
 
 # Enables django-rest-auth to use JWT tokens instead of regular tokens.
 REST_USE_JWT = True
+
+####################################
+# FMMSysApi specific settings
+####################################
+APP_VERSION = 2
+UPDATED = '17 MARCH, 2019'
+APIBASE_URL = 'api/v{}/'.format(APP_VERSION)

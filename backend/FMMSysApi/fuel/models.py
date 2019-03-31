@@ -266,7 +266,7 @@ class DeliveryOrder(AppModel):
 
 	STATUS=((1,'Created'),(2,'Pending'),(3,'Received'))
 
-	delievery_order = models.AutoField(
+	do_number = models.AutoField(
 			primary_key=True,
 			verbose_name=_("Order number"),
 			help_text=_("The ordered number or bond de command of the purchase that has been made to be delivered."),

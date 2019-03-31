@@ -3,17 +3,17 @@ from rest_framework import serializers
 from .models import Consumption, DailyProductionOnFuel, DeliveryOrder, Fuel, Inventory, SpecificConsumption, StockVariation, StorageUnit, Supplier, Supply, SupplyScheduleTransaction
 
 
-class ConsumptionSerializer(serializers.ModelSerializer):
+class ConsumptionSerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
 		"""Meta class to map serializer's fields with the model fields."""
 		model = Consumption
 		fields = '__all__'
-		depth = 1
+		# depth = 1
 
 
-class DailyProductionOnFuelSerializer(serializers.ModelSerializer):
+class DailyProductionOnFuelSerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
@@ -21,10 +21,10 @@ class DailyProductionOnFuelSerializer(serializers.ModelSerializer):
 		model = DailyProductionOnFuel
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
-		depth = 1
+		# depth = 1
 
 
-class DeliveryOrderSerializer(serializers.ModelSerializer):
+class DeliveryOrderSerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
@@ -32,9 +32,10 @@ class DeliveryOrderSerializer(serializers.ModelSerializer):
 		model = DeliveryOrder
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
-		depth = 1
+		# depth = 1
 
-class FuelSerializer(serializers.ModelSerializer):
+
+class FuelSerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
@@ -42,17 +43,19 @@ class FuelSerializer(serializers.ModelSerializer):
 		model = Fuel
 		fields = '__all__'
 
-class InventorySerializer(serializers.ModelSerializer):
+
+class InventorySerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
 		"""Meta class to map serializer's fields with the model fields."""
 		model = Inventory
 		fields = '__all__'
-		read_only_fields = ('date_created', 'date_modified')
-		depth = 1
+		read_only_fields = ('id','date_created', 'date_modified')
+		# depth = 1
 
-class SpecificConsumptionSerializer(serializers.ModelSerializer):
+
+class SpecificConsumptionSerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
@@ -60,9 +63,10 @@ class SpecificConsumptionSerializer(serializers.ModelSerializer):
 		model = SpecificConsumption
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
-		depth = 1
+		# depth = 1
 
-class StockVariationSerializer(serializers.ModelSerializer):
+
+class StockVariationSerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
@@ -70,9 +74,10 @@ class StockVariationSerializer(serializers.ModelSerializer):
 		model = StockVariation
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
-		depth = 1
+		# depth = 1
 
-class SupplyScheduleTransactionSerializer(serializers.ModelSerializer):
+
+class SupplyScheduleTransactionSerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
@@ -80,9 +85,10 @@ class SupplyScheduleTransactionSerializer(serializers.ModelSerializer):
 		model = SupplyScheduleTransaction
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
-		depth = 1
+		# depth = 1
 
-class SupplySerializer(serializers.ModelSerializer):
+
+class SupplySerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
@@ -90,18 +96,20 @@ class SupplySerializer(serializers.ModelSerializer):
 		model = Supply
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
-		depth = 1
+		# depth = 1
 
-class StorageUnitSerializer(serializers.ModelSerializer):
+
+class StorageUnitSerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
 		"""Meta class to map serializer's fields with the model fields."""
 		model = StorageUnit
 		fields = '__all__'
-		depth = 1
+		# depth = 1
 
-class SupplierSerializer(serializers.ModelSerializer):
+
+class SupplierSerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:

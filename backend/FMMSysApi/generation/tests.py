@@ -69,18 +69,23 @@ class ViewTestCase(TestCase):
 
     def test_api_can_get_a_power_plant(self):
         """Test the api can get a given power plant."""
-        self.response = self.client.get(reverse('power_plant_details', kwargs={'pk': self.power_plant.id}), format="json")
+        self.response = self.client.get(
+                reverse('power_plant_details', kwargs={'pk': self.power_plant.id}),
+                format="json")
         self.assertEqual(self.response.status_code,  status.HTTP_200_OK)
         self.assertContains(self.response, self.power_plant)
 
     def test_api_can_update_a_power_plant(self):
         """Test the api can update  a given power plant."""
         change_plant_name = {'plant_name': 'Limbe Power Plant'}
-        self.response = self.client.put(reverse('power_plant_details', kwargs={'pk': self.power_plant.id}),
-                                        change_plant_name, format="json")
+        self.response = self.client.put(
+                reverse('power_plant_details', kwargs={'pk': self.power_plant.id}),
+                change_plant_name, format="json")
         self.assertEqual(self.response.status_code,  status.HTTP_200_OK)
 
     def test_api_can_delete_a_power_plant(self):
         """Test the api can delete a given power plant."""
-        self.response = self.client.delete(reverse('power_plant_details', kwargs={'pk': self.power_plant.id}), format="json", follow=True)
+        self.response = self.client.delete(
+                reverse('power_plant_details', kwargs={'pk': self.power_plant.id}),
+                format="json", follow=True)
         self.assertEqual(self.response.status_code,  status.HTTP_204_NO_CONTENT)

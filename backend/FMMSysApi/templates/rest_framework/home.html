@@ -22,11 +22,11 @@
                 </div>
                 
             <div class="panel-body">
-                <H6><span class="alert alert-info">This is the Fuel Monitoring and Management System API home page</span> </H6><a class="label label-default center"> version 0.1 </a>
+                <H6><span class="alert alert-info">This is the Fuel Monitoring and Management System API home page</span> </H6><a class="label label-default center"> version 0.{{version}} </a>
             </div>
             
             <div class="panel-footer">
-                <span class="label label-default">Last Updates</span> <span class="label label-default">14 JAN 2019</span>
+                <span class="label label-default">Last Updates</span> <span class="label label-default">{{update}}</span>
             </div>
         </div>
 
@@ -37,9 +37,9 @@
                         List</h3>
                 </div>
                 <ul class="list-group">
-                    {% for f in fu %}
-                    <a href="/fuel/{{f}}" class="list-group-item">{{f|title}}</a>
-                    {% endfor %}
+                    {% for name in endpoints %}
+                    {% if forloop.counter <= half %}
+                    <a href="{{endpoints.url}}" class="list-group-item">{{endpoints.name|title}}</a>
                 </ul>
             </div>
         </div>
@@ -50,12 +50,13 @@
                         List</h3>
                 </div>
                 <ul class="list-group">
-                    {% for g in gen %}
-                    <a href="/generate/{{g}}" class="list-group-item">{{g|title}}</a>
+                    {% else %}
+                    <a href="{{endpoints.url}}" class="list-group-item">{{endpoints.name|title}}</a>
+                    {% endif %}
                     {% endfor %}
                 </ul>
             </div>
-            <div><form action="/docs" target="/docs/"><input type="submit" class="btn btn-primary" value="View Docs" ></form> </div>
+            <div><form action="{{app_root}}docs" target="{{app_root}}docs/"><input type="submit" class="btn btn-primary" value="View Docs" ></form> </div>
         </div>
         </div></div></div></div>
 {% endblock content %}

@@ -3,16 +3,16 @@ from rest_framework import serializers
 from .models import PowerPlant, AutonomyLeft, HourlyTotalPowerAvailable, Generators, Demand, HourlyProductionForecast
 
 
-class PowerPlantSerializer(serializers.ModelSerializer):
+class PowerPlantSerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
 		"""Meta class to map serializer's fields with the model fields."""
 		model = PowerPlant
-		fields = ('id', "plant_name", "location", 'production_capacity', 'power_category', 'placement_priority', 'grouping')
+		fields = ('url','id', "plant_name", "location", 'production_capacity', 'power_category', 'placement_priority', 'grouping')
 
 
-class AutonomyLeftSerializer(serializers.ModelSerializer):
+class AutonomyLeftSerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
@@ -23,7 +23,7 @@ class AutonomyLeftSerializer(serializers.ModelSerializer):
 		depth = 1
 
 
-class HourlyTPASerializer(serializers.ModelSerializer):
+class HourlyTPASerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
@@ -33,7 +33,8 @@ class HourlyTPASerializer(serializers.ModelSerializer):
 		read_only_fields = ('date_created', 'date_modified')
 		depth = 1
 
-class GeneratorsSerializer(serializers.ModelSerializer):
+
+class GeneratorsSerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
@@ -43,7 +44,8 @@ class GeneratorsSerializer(serializers.ModelSerializer):
 		read_only_fields = ('date_created', 'date_modified')
 		depth = 1
 
-class DemandSerializer(serializers.ModelSerializer):
+
+class DemandSerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
@@ -52,7 +54,8 @@ class DemandSerializer(serializers.ModelSerializer):
 		fields = '__all__'
 		read_only_fields = ('date_created', 'date_modified')
 
-class HourlyPFSerializer(serializers.ModelSerializer):
+
+class HourlyPFSerializer(serializers.HyperlinkedModelSerializer):
 	"""Serializer to map the Model instance into JSON format."""
 
 	class Meta:
